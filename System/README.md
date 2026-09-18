@@ -1,4 +1,4 @@
-S                     Student Management System
+                  Student Management System
 student management system is a simply a system which is built by React js  and Vite.
 
 This system or application will allow users to add,edit , delete, search and filter student records.
