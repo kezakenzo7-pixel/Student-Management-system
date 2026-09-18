@@ -1,0 +1,179 @@
+/* General Application */
+
+.app-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+/* Forms */
+
+form {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+/* Inputs and Selects */
+
+input,
+select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* General Buttons */
+
+button {
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Add Button */
+
+.add-button {
+  background-color: #2563eb;
+}
+
+/* Search Bar */
+
+.search-bar {
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.search-bar h2 {
+  margin-top: 0;
+}
+
+.search-bar input,
+.search-bar select {
+  margin-bottom: 10px;
+}
+
+/* Records Header */
+
+.records-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.records-header h2 {
+  margin: 0;
+}
+
+/* Student Cards */
+
+.student-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.student-card p {
+  margin: 8px 0;
+}
+
+/* Buttons Group */
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+/* Update Button */
+
+.update-button {
+  background-color: #2563eb;
+}
+
+/* Delete Button */
+
+.delete-button {
+  background-color: #dc2626;
+}
+
+/* Save Button */
+
+.save-button {
+  background-color: #16a34a;
+}
+
+/* Cancel Button */
+
+.cancel-button {
+  background-color: #6b7280;
+}
+
+/* Edit Form */
+
+.edit-form {
+  background-color: #eff6ff;
+}
+
+.edit-form h3 {
+  color: #2563eb;
+}
+
+/* No Students Message */
+
+.no-students {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  padding: 15px;
+  border-radius: 8px;
+}
